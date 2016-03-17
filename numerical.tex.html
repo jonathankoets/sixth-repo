@@ -1,0 +1,208 @@
+<html><head><style type="text/css">pre { margin: 1px }
+			.fmt0 {  } /* normal */
+			.fmt1 {  } /* background */
+			.fmt2 { background-color: #ffcabf; } /* line:error */
+			.fmt3 { background-color: #fffbbf; } /* line:warning */
+			.fmt4 { background-color: #bfd6ff; } /* line:badbox */
+			.fmt5 {  } /* line:bookmark */
+			.fmt6 {  } /* line:bookmark0 */
+			.fmt7 {  } /* line:bookmark1 */
+			.fmt8 {  } /* line:bookmark2 */
+			.fmt9 {  } /* line:bookmark3 */
+			.fmt10 {  } /* line:bookmark4 */
+			.fmt11 {  } /* line:bookmark5 */
+			.fmt12 {  } /* line:bookmark6 */
+			.fmt13 {  } /* line:bookmark7 */
+			.fmt14 {  } /* line:bookmark8 */
+			.fmt15 {  } /* line:bookmark9 */
+			.fmt16 { color: #555580; } /* magicComment */
+			.fmt17 { background-color: #a8cf83; } /* commentTodo */
+			.fmt18 { color: #808080; } /* comment */
+			.fmt19 { color: #800000; } /* keyword */
+			.fmt20 { font-weight: 700;color: #0095ff; } /* extra-keyword */
+			.fmt21 { color: #808000; } /* math-keyword */
+			.fmt22 { border-bottom: 1px solid #0000ff;color: #0000ff; } /* link */
+			.fmt23 { font-weight: 700;color: #0055ff; } /* align-ampersand */
+			.fmt24 { color: #008080; } /* verbatim */
+			.fmt25 { color: #800000; } /* sweave-block */
+			.fmt26 { font-weight: 700;color: #0095ff; } /* sweave-delimiter */
+			.fmt27 { color: #800000; } /* pweave-block */
+			.fmt28 { font-weight: 700;color: #0095ff; } /* pweave-delimiter */
+			.fmt29 { color: #804000; } /* picture */
+			.fmt30 { font-weight: 700;color: #c00000;background-color: #ffff7f; } /* braceMatch */
+			.fmt31 { font-weight: 700;color: #ffff7f;background-color: #c00000; } /* braceMismatch */
+			.fmt32 { color: #000000;background-color: #ffff40; } /* search */
+			.fmt33 { color: #008000; } /* numbers */
+			.fmt34 { color: #509600; } /* math-delimiter */
+			.fmt35 { color: #ff0000; } /* text */
+			.fmt36 { color: #ff0088; } /* escapeseq */
+			.fmt37 { border-bottom: 1px dashed #ff0000; } /* spellingMistake */
+			.fmt38 { border-bottom: 1px dashed #008000; } /* wordRepetition */
+			.fmt39 { border-bottom: 1px dashed #008000; } /* wordRepetitionLongRange */
+			.fmt40 { text-decoration: line-through; } /* badWord */
+			.fmt41 { border-bottom: 1px dashed #000080; } /* grammarMistake */
+			.fmt42 { background-color: #00ffa0; } /* grammarMistakeSpecial1 */
+			.fmt43 { background-color: #00c0ff; } /* grammarMistakeSpecial2 */
+			.fmt44 { background-color: #00ff00; } /* grammarMistakeSpecial3 */
+			.fmt45 { background-color: #c8ff61; } /* grammarMistakeSpecial4 */
+			.fmt46 { background-color: #ffbf9f; } /* latexSyntaxMistake */
+			.fmt47 { font-style: italic;color: #0000ff; } /* temporaryCodeCompletion */
+			.fmt48 { color: #000080; } /* environment */
+			.fmt49 { color: #008000; } /* referencePresent */
+			.fmt50 { border-bottom: 1px dashed #008000;color: #008000; } /* referenceMissing */
+			.fmt51 { border-bottom: 1px dashed #800080;color: #800080; } /* referenceMultiple */
+			.fmt52 { color: #008000; } /* citationPresent */
+			.fmt53 { border-bottom: 1px dashed #008000;color: #008000; } /* citationMissing */
+			.fmt54 { color: #008000; } /* packagePresent */
+			.fmt55 { border-bottom: 1px dashed #008000;color: #008000; } /* packageMissing */
+			.fmt56 { font-weight: 700;color: #000000; } /* structure */
+			.fmt57 { background-color: #eeeeff; } /* current */
+			.fmt58 { background-color: #aaffff; } /* selection */
+			.fmt59 { background-color: #ffaaaa; } /* replacement */
+			.fmt60 { text-decoration: line-through;background-color: #ffaaaa; } /* diffDelete */
+			.fmt61 { background-color: #aaffaa; } /* diffAdd */
+			.fmt62 { background-color: #ffff50; } /* diffReplace */
+			.fmt63 { background-color: #aaffaa; } /* previewSelection */
+			.fmt64 { font-weight: 700;color: #0095ff; } /* txs-test */
+			.fmt65 { color: #008000; } /* txs-test-pass */
+			.fmt66 { color: #c00000; } /* txs-test-fail */
+			.fmt67 { color: #ea8800; } /* txs-test-warn */
+			.fmt68 { color: #808000; } /* txs-test-qdebug */
+			.fmt69 { color: #ffa500; } /* dtx:guard */
+			.fmt70 { font-weight: 700;color: #006400; } /* dtx:macro */
+			.fmt71 { color: #008080; } /* dtx:verbatim */
+			.fmt72 { color: #cc8100; } /* dtx:specialchar */
+			.fmt73 { font-weight: 700;color: #10c010; } /* dtx:commands */
+			.fmt74 { color: #b200ff; } /* lua:keyword */
+			.fmt75 { color: #808080; } /* lua:comment */
+			.fmt76 { color: #804000; } /* asymptote:block */
+			.fmt77 { color: #800080; } /* asymptote:keyword */
+			.fmt78 { color: #808000; } /* asymptote:type */
+			.fmt79 { color: #008000; } /* asymptote:numbers */
+			.fmt80 { color: #000080; } /* asymptote:string */
+			.fmt81 { color: #808080; } /* asymptote:comment */
+			.fmt82 { background-color: #ffff7f; } /* preedit */
+		</style></head><body><pre><span class="fmt18">%</span><span class="fmt18"> </span><span class="fmt18">Generated</span><span class="fmt18"> </span><span class="fmt18">by</span><span class="fmt18"> </span><span class="fmt18">GrindEQ</span><span class="fmt18"> </span><span class="fmt18">Word-to-LaTeX</span><span class="fmt18"> </span> </pre>
+		<pre><span class="fmt19">\documentclass</span>{<span class="fmt54">article</span>} <span class="fmt18">%%%</span><span class="fmt18"> </span><span class="fmt18">use</span><span class="fmt18"> </span><span class="fmt18">\documentstyle</span><span class="fmt18"> </span><span class="fmt18">for</span><span class="fmt18"> </span><span class="fmt18">old</span><span class="fmt18"> </span><span class="fmt18">LaTeX</span><span class="fmt18"> </span><span class="fmt18">compilers</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\usepackage</span>[english]{<span class="fmt54">babel</span>} <span class="fmt18">%%%</span><span class="fmt18"> </span><span class="fmt18">'french',</span><span class="fmt18"> </span><span class="fmt18">'german',</span><span class="fmt18"> </span><span class="fmt18">'spanish',</span><span class="fmt18"> </span><span class="fmt18">'danish',</span><span class="fmt18"> </span><span class="fmt18">etc.</span> </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt54">amssymb</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt54">amsmath</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt54">txfonts</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt54">mathdots</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>[classicReIm]{<span class="fmt54">kpfonts</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>[dvips]{<span class="fmt54">graphicx</span>} <span class="fmt18">%%%</span><span class="fmt18"> </span><span class="fmt18">use</span><span class="fmt18"> </span><span class="fmt18">'pdftex'</span><span class="fmt18"> </span><span class="fmt18">instead</span><span class="fmt18"> </span><span class="fmt18">of</span><span class="fmt18"> </span><span class="fmt18">'dvips'</span><span class="fmt18"> </span><span class="fmt18">for</span><span class="fmt18"> </span><span class="fmt18">PDF</span><span class="fmt18"> </span><span class="fmt18">output</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt18">%</span><span class="fmt18"> </span><span class="fmt18">You</span><span class="fmt18"> </span><span class="fmt18">can</span><span class="fmt18"> </span><span class="fmt18">include</span><span class="fmt18"> </span><span class="fmt18">more</span><span class="fmt18"> </span><span class="fmt18">LaTeX</span><span class="fmt18"> </span><span class="fmt18">packages</span><span class="fmt18"> </span><span class="fmt18">here</span><span class="fmt18"> </span> </pre>
+		<pre> </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">document</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt18">%\selectlanguage{english}</span><span class="fmt18"> </span><span class="fmt18">%%%</span><span class="fmt18"> </span><span class="fmt18">remove</span><span class="fmt18"> </span><span class="fmt18">comment</span><span class="fmt18"> </span><span class="fmt18">delimiter</span><span class="fmt18"> </span><span class="fmt18">('%')</span><span class="fmt18"> </span><span class="fmt18">and</span><span class="fmt18"> </span><span class="fmt18">select</span><span class="fmt18"> </span><span class="fmt18">language</span><span class="fmt18"> </span><span class="fmt18">if</span><span class="fmt18"> </span><span class="fmt18">required</span> </pre>
+		<pre> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> Jonathan <span class="fmt37">Koets</span>   442332 </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{Investor }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">simultaneously</span> <span class="fmt37">decide</span> <span class="fmt37">how</span> <span class="fmt37">much</span> to <span class="fmt37">invest</span> in a <span class="fmt37">new</span> <span class="fmt37">project</span>. <span class="fmt37">Payoffs</span> <span class="fmt37">are</span> <span class="fmt37">increasing</span> in <span class="fmt37">how</span> <span class="fmt37">much</span> <span class="fmt37">the</span> <span class="fmt37">other</span> <span class="fmt37">investor</span> <span class="fmt37">invests</span>. To be <span class="fmt37">precise</span> <span class="fmt37">the</span> <span class="fmt37">payoffs</span> to }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> }<span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">are</span>:} </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt34">$</span><span class="fmt33">U^x(x,y)\</span><span class="fmt33"> </span><span class="fmt33">=\</span><span class="fmt33"> </span><span class="fmt33">x(</span><span class="fmt21">\textrm</span><span class="fmt33">{½}y\</span><span class="fmt33"> </span><span class="fmt33">+\</span><span class="fmt33"> </span><span class="fmt33">75\</span><span class="fmt33"> </span><span class="fmt33">--\</span><span class="fmt33"> </span><span class="fmt33">x)U^y(x,y)\</span><span class="fmt33"> </span><span class="fmt33">=\</span><span class="fmt33"> </span><span class="fmt33">y(</span><span class="fmt21">\textrm</span><span class="fmt33">{½}x\</span><span class="fmt33"> </span><span class="fmt33">+\</span><span class="fmt33"> </span><span class="fmt33">75\</span><span class="fmt33"> </span><span class="fmt33">--\</span><span class="fmt33"> </span><span class="fmt33">y)</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{<span class="fmt37">Where</span> }<span class="fmt34">$</span><span class="fmt33">x</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> }<span class="fmt34">$</span><span class="fmt33">y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">denote</span> <span class="fmt37">the</span> <span class="fmt37">investment</span> <span class="fmt37">level</span> of }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> }<span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{, <span class="fmt37">respectively</span>. <span class="fmt37">For</span> <span class="fmt37">both</span> }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> }<span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{, <span class="fmt37">the</span> <span class="fmt37">minimum</span> <span class="fmt37">investment</span> <span class="fmt37">level</span> is}<span class="fmt34">$</span><span class="fmt33">\</span><span class="fmt33"> </span><span class="fmt33">0</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">and</span> <span class="fmt37">the</span> <span class="fmt37">maximum</span> <span class="fmt37">level</span> is }<span class="fmt34">$</span><span class="fmt33">200</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{.} </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{} </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt19">\item</span> <span class="fmt19">\textit</span>{ <span class="fmt37">What</span> <span class="fmt37">are</span> <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span> <span class="fmt37">investment</span> <span class="fmt37">levels</span>?} </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{} </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> In <span class="fmt37">order</span> to <span class="fmt37">find</span> <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span> <span class="fmt37">investment</span> <span class="fmt37">levels</span> we <span class="fmt37">take</span> <span class="fmt37">the</span> <span class="fmt37">first</span> <span class="fmt37">order</span> <span class="fmt37">derivative</span> of <span class="fmt37">both</span> <span class="fmt37">utility</span> <span class="fmt37">functions</span>. <span class="fmt37">Then</span> we <span class="fmt37">set</span> <span class="fmt37">this</span> <span class="fmt37">equal</span> to <span class="fmt34">$</span><span class="fmt33">0</span><span class="fmt34">$</span> <span class="fmt37">and</span> <span class="fmt37">solve</span> <span class="fmt37">this</span> <span class="fmt37">for</span> <span class="fmt34">$</span><span class="fmt33">x</span><span class="fmt34">$</span> <span class="fmt37">and</span> <span class="fmt34">$</span><span class="fmt33">y</span><span class="fmt34">$</span> <span class="fmt37">respectively</span>. We <span class="fmt37">substitute</span> <span class="fmt37">the</span> <span class="fmt37">expression</span> of <span class="fmt34">$</span><span class="fmt33">y</span><span class="fmt34">$</span> <span class="fmt37">into</span> <span class="fmt37">the</span> <span class="fmt37">function</span> of <span class="fmt34">$</span><span class="fmt33">x</span><span class="fmt34">$</span> to <span class="fmt37">determine</span> <span class="fmt37">the</span> <span class="fmt37">equilibrium</span>. </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt21">\frac</span><span class="fmt33">{dU^x}{dx}=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{2}y+75-2x=0</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">2x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{2}y+75</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}y+37.5</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt21">\frac</span><span class="fmt33">{dU^y}{dy}=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{2}x+75-2y=0</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">2y=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{2}x+75</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">y=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}x+37.5</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}</span><span class="fmt21">\left(\frac</span><span class="fmt33">{1}{4}x+37.5</span><span class="fmt21">\right)</span><span class="fmt33">+37.5</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{16}x+9.375+37.5</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt21">\frac</span><span class="fmt33">{15}{16}x=46.875</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=50</span><span class="fmt21">\to</span><span class="fmt33"> </span><span class="fmt33">y=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}*50+37.5=50</span><span class="fmt34">\]</span>  </pre>
+		<pre>So <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span> <span class="fmt37">investment</span> <span class="fmt37">levels</span> <span class="fmt37">are</span> <span class="fmt37">equal</span> to <span class="fmt34">$</span><span class="fmt33">50</span><span class="fmt34">$</span> <span class="fmt37">for</span> <span class="fmt37">both</span> <span class="fmt37">investors</span> <span class="fmt34">$</span><span class="fmt33">(50,50)</span><span class="fmt34">$</span>. </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt19">\item</span>  <span class="fmt19">\textit</span>{<span class="fmt37">Suppose</span> <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ is <span class="fmt37">type</span> <span class="fmt37">level-</span>1. <span class="fmt37">How</span> <span class="fmt37">much</span> will <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">invest</span>?} </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{} </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt37">Since</span> <span class="fmt37">investor</span> <span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span> is a <span class="fmt37">type</span> <span class="fmt37">level-</span>1 <span class="fmt37">player</span>, he <span class="fmt37">assumes</span> <span class="fmt37"><span class="fmt39">player</span></span> <span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span> to be a <span class="fmt37">type</span> <span class="fmt37">level-</span>0 <span class="fmt37"><span class="fmt39">player</span></span> <span class="fmt37">which</span> <span class="fmt37">chooses</span> <span class="fmt37">random</span>. <span class="fmt37">Since</span> <span class="fmt37"><span class="fmt39">player</span></span> <span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span> <span class="fmt37"><span class="fmt39">chooses</span></span> <span class="fmt37">random</span> <span class="fmt37">from</span> <span class="fmt37">the</span> <span class="fmt37">interval</span> of <span class="fmt34">$</span><span class="fmt33">[0,200]</span><span class="fmt34">$</span>, we <span class="fmt37">assume</span> <span class="fmt37">player</span> <span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span> to <span class="fmt37">choose</span> <span class="fmt34">$</span><span class="fmt33">100</span><span class="fmt34">$</span>.  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt37">Substituting</span> <span class="fmt37">this</span> <span class="fmt37">value</span> <span class="fmt37">for</span> <span class="fmt34">$</span><span class="fmt33">y</span><span class="fmt34">$</span> is <span class="fmt37">the</span> <span class="fmt37">best-response</span> <span class="fmt37">function</span> of <span class="fmt37">player</span> <span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span> <span class="fmt37">gives</span>: </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}*100+37.5=62.5</span><span class="fmt34">\]</span>  </pre>
+		<pre>So <span class="fmt37">player</span> <span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span> will <span class="fmt37">invest</span> <span class="fmt34">$</span><span class="fmt33">62.5</span><span class="fmt34">$</span>. </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt19">\item</span>  <span class="fmt19">\textit</span>{<span class="fmt37">Suppose</span> <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ is <span class="fmt37">type</span> C-2 (<span class="fmt37">believing</span> <span class="fmt37">that</span> <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ is a <span class="fmt37">mixture</span> of <span class="fmt37">level-</span>0 <span class="fmt37">and</span> <span class="fmt37"><span class="fmt38">level-</span></span>1, <span class="fmt37">with</span> <span class="fmt37">proportions</span> <span class="fmt37">determined</span> by }<span class="fmt34">$</span><span class="fmt33">=1.5</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{). <span class="fmt37">How</span> <span class="fmt37">much</span> will <span class="fmt37">investor</span> }<span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span><span class="fmt19">\textit</span>{ <span class="fmt37">invest</span>?} </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{} </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> First, we <span class="fmt37">need</span> to <span class="fmt37">determine</span> <span class="fmt37">the</span> <span class="fmt37">proportions</span> of <span class="fmt37">level-</span>0 <span class="fmt37">and</span> <span class="fmt37"><span class="fmt38">level-</span></span>1 <span class="fmt37">players</span> (<span class="fmt37">actually</span> <span class="fmt37">player</span> <span class="fmt34">$</span><span class="fmt33">Y</span><span class="fmt34">$</span> is a <span class="fmt37">mixture</span> of <span class="fmt37">the</span> <span class="fmt37">two</span> <span class="fmt37">types</span>). We do <span class="fmt37">this</span> by <span class="fmt37">using</span> a <span class="fmt37">Poisson</span> <span class="fmt37">distribution</span> <span class="fmt37">and</span> <span class="fmt37">taking</span> <span class="fmt34">$</span><span class="fmt33">=1.5</span><span class="fmt34">$</span>. </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">f</span><span class="fmt21">\left(</span><span class="fmt33">0</span><span class="fmt21">\right)</span><span class="fmt33">=</span><span class="fmt21">\frac</span><span class="fmt33">{e^{-1.5}{1.5}^0}{0!}=0.223</span><span class="fmt34">\]</span>  </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">f</span><span class="fmt21">\left(</span><span class="fmt33">1</span><span class="fmt21">\right)</span><span class="fmt33">=</span><span class="fmt21">\frac</span><span class="fmt33">{e^{-1.5}{1.5}^1}{1!}=0.335</span><span class="fmt34">\]</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt21">\frac</span><span class="fmt33">{0.223*100+0.335*62.5}{0.223+0.335}=77.487</span><span class="fmt34">\]</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt34">\[</span><span class="fmt33">x=</span><span class="fmt21">\frac</span><span class="fmt33">{1}{4}*77.487+37.5=56.872</span><span class="fmt34">\]</span>  </pre>
+		<pre>So <span class="fmt37">player</span> <span class="fmt34">$</span><span class="fmt33">X</span><span class="fmt34">$</span> will <span class="fmt37">invest</span> <span class="fmt34">$</span><span class="fmt33">56.872</span><span class="fmt34">$</span>. </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt19">\item</span>  <span class="fmt19">\textit</span>{<span class="fmt37">Compare</span> <span class="fmt37">how</span> <span class="fmt37">the</span> <span class="fmt37">investment</span> <span class="fmt37">levels</span> of <span class="fmt37">type</span> <span class="fmt37">level-</span>0, <span class="fmt37">type</span> <span class="fmt37"><span class="fmt39">level-</span></span>1, <span class="fmt37">and</span> <span class="fmt37">type</span> <span class="fmt37">level</span> C-2 <span class="fmt37">compare</span> to <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span>. } </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span> <span class="fmt19">\textit</span>{} </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt48">tabular</span></span><span class="fmt20">}</span>{|p{1.7in}|p{1.<span class="fmt37">1in</span>}|} <span class="fmt19">\hline</span>  </pre>
+		<pre><span class="fmt19">\textbf</span>{<span class="fmt37">Table</span> 2; <span class="fmt37">Question</span> 4 <span class="fmt37">Statistics</span>} <span class="fmt23">&amp;</span> <span class="fmt19">\textbf</span>{} <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre><span class="fmt19">\textbf</span>{<span class="fmt37">Investor's</span> <span class="fmt34">$</span><span class="fmt21">\boldsymbol</span><span class="fmt33">{X}</span><span class="fmt34">$</span> <span class="fmt37">type</span>} <span class="fmt23">&amp;</span> <span class="fmt19">\textbf</span>{Investment by <span class="fmt37">player</span> }<span class="fmt34">$</span><span class="fmt21">\boldsymbol</span><span class="fmt33">{X}</span><span class="fmt34">$</span><span class="fmt19">\textbf</span>{} <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre>Homo <span class="fmt37">economicus</span> (<span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span>) <span class="fmt23">&amp;</span> 50 <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre>Level-0 <span class="fmt23">&amp;</span> 100 <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre><span class="fmt39">Level-</span>1 <span class="fmt23">&amp;</span> 62.5 <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre>C-2 <span class="fmt23">&amp;</span> 56.872 <span class="fmt19">\\</span> <span class="fmt19">\hline</span>  </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">tabular</span></span><span class="fmt20">}</span> </pre>
+		<pre> </pre>
+		<pre><span class="fmt37">Table</span> 2 <span class="fmt37">summarizes</span> <span class="fmt37">the</span> <span class="fmt37">results</span> of <span class="fmt37">questions</span> 4a, b <span class="fmt37">and</span> c. We <span class="fmt37">observe</span> <span class="fmt37">that</span> if we <span class="fmt37">assume</span> <span class="fmt37">the</span> <span class="fmt37">investor</span> to <span class="fmt37">become</span> smarter, <span class="fmt37">his</span> <span class="fmt37">investment</span> <span class="fmt37">level</span> <span class="fmt37">converges</span> to <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span>. So we <span class="fmt37">start</span> <span class="fmt37">with</span> a <span class="fmt37">level-</span>0 <span class="fmt37">player</span> <span class="fmt37">who</span> <span class="fmt37">decides</span> to <span class="fmt37">invest</span> 100. <span class="fmt37">When</span> <span class="fmt37">this</span> <span class="fmt37">person</span> is <span class="fmt37">assumed</span> to be smarter (C-2) he <span class="fmt37">decides</span> <span class="fmt37">invest</span> <span class="fmt37">only</span> 56.872. <span class="fmt37">Therefore</span> we <span class="fmt37">suspect</span> <span class="fmt37">that</span> <span class="fmt37">the</span> <span class="fmt37">smartest</span> <span class="fmt37">person</span> (C-k) will <span class="fmt37">invest</span> 50, <span class="fmt37">which</span> is <span class="fmt37">the</span> <span class="fmt37">same</span> as <span class="fmt37"><span class="fmt38">the</span></span> <span class="fmt37">homo</span> <span class="fmt37">economicus</span> as <span class="fmt37">assumed</span> by <span class="fmt37">the</span> <span class="fmt37">Nash</span> <span class="fmt37">equilibrium</span>.  </pre>
+		<pre> </pre>
+		<pre><span class="fmt19">\noindent</span>  </pre>
+		<pre> </pre>
+		<pre> </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt48">document</span></span><span class="fmt20">}</span> </pre></body></html>
